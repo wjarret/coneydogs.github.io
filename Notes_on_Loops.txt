@@ -1,0 +1,22 @@
+<h2>While Loops</h2>
+
+<p>While loops are structured as follows:</p>
+<ul>
+  <li><code>while</code></li>
+  <li>condition</li>
+  <li>colon (<code>:</code>)</li>
+</ul>
+
+<p>Once these conditions are followed, we can create the block of code that will run until the condition is satisfied.</p>
+
+<pre><code>spam = 0
+while spam &lt; 5:
+    print('Hello, world.')
+    spam = spam + 1
+</code></pre>
+
+<p>
+Once the while loop is created, there are a few things to watch out for.  
+First, infinite loops are created when the condition never changes, never satisfying the loop.  
+This leads to the code running forever until we break (<kbd>Ctrl</kbd> + <kbd>C</kbd>).
+</p>
